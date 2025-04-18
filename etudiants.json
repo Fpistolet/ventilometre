@@ -1,0 +1,723 @@
+[
+  {
+    "nom": "ARAGOU",
+    "prenom": "Soulaym",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Paris",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "BOYER",
+    "prenom": "Enzo",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Marseille",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "CHASSIGNOL",
+    "prenom": "Ugo",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Foussemagne",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "DAVID",
+    "prenom": "TOM",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Morteau",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "EL OMARI",
+    "prenom": "Imrane",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Lille",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "ESSAJNANI",
+    "prenom": "Farès",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Rennes",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "GALMICHE",
+    "prenom": "Baptiste",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "HAMDI",
+    "prenom": "Youssef",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Belfort",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Vannes",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "JUNAUX",
+    "prenom": "Rachelle",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Audincourt",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "TALOUKA",
+    "prenom": "Séphora",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Paris",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "VINCENT",
+    "prenom": "Nathanaël",
+    "groupe": "GB1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Héricourt",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "AZMANI",
+    "prenom": "Redouane",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Seloncourt",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "DOS CEUS MENDES",
+    "prenom": "Jaïr",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "EGLIN",
+    "prenom": "Merlin",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "ERRAJIFI",
+    "prenom": "Ayoub",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Belfort",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "FELFEL",
+    "prenom": "Amine",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Strasbourg",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "FREZZA",
+    "prenom": "Emile",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Lyon",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "GENEBRIER GUILLET",
+    "prenom": "Thomas",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Belfort",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Bordeaux",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "HARDORN",
+    "prenom": "Maxim",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Sélestat",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "JIRARI",
+    "prenom": "Mohamed",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "SARIBAS",
+    "prenom": "Ridvan",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "TURKMEN",
+    "prenom": "Alihan",
+    "groupe": "GB2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Audincourt",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "AISSA",
+    "prenom": "Anis",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Belfort",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "JOYEZ",
+    "prenom": "Florian",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Paris",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "JURY--VERMOT DES ROCHES",
+    "prenom": "Grégoire",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Écot",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "LORENZI",
+    "prenom": "Bastien",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },{
+        "adresse": "Inconnue 2",
+        "ville": "Lure",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "MADAD",
+    "prenom": "Hamza",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Audincourt",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "MARSIGAGLIA",
+    "prenom": "Dylan",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Étouvans",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "MINGHI",
+    "prenom": "Jules",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Étupes",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Bourges",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "MSELQUE",
+    "prenom": "Yassine",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "MVULA",
+    "prenom": "Sven",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Mulhouse",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "MZOUGHI",
+    "prenom": "Wassim",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Paris",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "OUAJOURA",
+    "prenom": "Hamza",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },{
+        "adresse": "Inconnue 2",
+        "ville": "Paris",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "PARENT",
+    "prenom": "Amaury",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Pierrefontaine-les-Blamont",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Nice",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "SAOUD",
+    "prenom": "Nohame",
+    "groupe": "LK1",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Belfort",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "DARVAS",
+    "prenom": "Maximilien",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Pontarlier",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "DI GUSTO",
+    "prenom": "Gabin",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "MOLDES-NAAL",
+    "prenom": "Ramire",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "PISTOLET",
+    "prenom": "Florian",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Vesoul",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "RUFFINONI",
+    "prenom": "Noah",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Petit-Noir",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "SIMONNET",
+    "prenom": "Théo",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Vesoul",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "THOMAS",
+    "prenom": "Gaspard",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Vesoul",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "VERMOT",
+    "prenom": "Thomas",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  },
+  {
+    "nom": "YILMAZ",
+    "prenom": "Semi",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      },
+      {
+        "adresse": "Inconnue 2",
+        "ville": "Strasbourg",
+        "date_debut": "2024-01-01",
+        "date_fin": "2024-02-04"
+      }
+    ]
+  },
+  {
+    "nom": "YOUNES",
+    "prenom": "Jad",
+    "groupe": "LK2",
+    "residences": [
+      {
+        "adresse": "Inconnue 1",
+        "ville": "Montbéliard",
+        "date_debut": "2024-01-01",
+        "date_fin": null
+      }
+    ]
+  }
+]

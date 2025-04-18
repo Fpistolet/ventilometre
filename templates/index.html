@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ventilomètre des Étudiants</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #eef2f7;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #1e3a8a;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 40px;
+        }
+
+        form {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        input[type=text] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #1e40af;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .students-link {
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+
+        .students-link a {
+            color: #3b3b5c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .students-link a:hover {
+            text-decoration: underline;
+        }
+
+        .result, .history {
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .vent-median {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            color: #1e3a8a;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        .btn-clear {
+            margin-top: 10px;
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">🌀</div>
+    <h1>Ventilomètre des Étudiants</h1>
+
+    {% if vent_collectif %}
+    <div class="vent-median">
+        🌍 Ventilomètre collectif du jour : <strong>{{ vent_collectif }} m/s</strong>
+    </div>
+    {% endif %}
+
+    <form method="POST">
+        <input type="text" name="nom" placeholder="Nom de l'étudiant" required>
+        <button type="submit">🔎 Rechercher</button>
+    </form>
+
+    <div class="students-link">
+        <p>📄 <a href="{{ url_for('etudiants') }}">Voir tous les étudiants</a></p>
+    </div>
+
+    {% if result %}
+<div class="result">
+    <h2>Résultat pour {{ result.nom }} {{ result.prenom }}</h2>
+    <p>📍 Résidence principale : {{ result.ville1 }} — Vent : {{ result.vent1 }} m/s</p>
+    {% if result.ville2 %}
+    <p>🏠 Résidence secondaire : {{ result.ville2 }} — Vent : {{ result.vent2 }} m/s</p>
+    {% endif %}
+</div>
+{% endif %}
+
+{% if historique_utilisateur %}
+<div class="history">
+    <h2>🕒 Historique personnel</h2>
+    <ul>
+        {% for h in historique_utilisateur %}
+        <li>{{ h[6] }} – <strong>{{ h[1] }}</strong> :
+            {{ h[2] }} ({{ h[3] }} m/s)
+            {% if h[4] %}/ {{ h[4] }} ({{ h[5] }} m/s){% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+{% if historique %}
+<div class="history">
+    <h2>🧾 Historique global de {{ result.nom }} {{ result.prenom }}</h2>
+    <ul>
+        {% for r in historique %}
+        <li>{{ r[6] }} – <strong>{{ r[1] }}</strong> : {{ r[2] }} ({{ r[3] }} m/s)
+            {% if r[4] %}/ {{ r[4] }} ({{ r[5] }} m/s){% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    <form method="POST" action="{{ url_for('clear_history') }}">
+        <button class="btn-clear">🗑️ Vider l'historique</button>
+    </form>
+</div>
+{% endif %}
+
+</body>
+</html>

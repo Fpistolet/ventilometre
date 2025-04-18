@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ventilometre
+    env: python
+    region: frankfurt
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: FLASK_ENV
+        value: production
