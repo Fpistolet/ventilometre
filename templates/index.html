@@ -127,7 +127,7 @@
 
 {% if historique_utilisateur %}
 <div class="history">
-    <h2>🕒 Historique personnel</h2>
+    <h2>🕒 Historique personnel de {{ result.nom }} {{ result.prenom }}</h2>
     <ul>
         {% for h in historique_utilisateur %}
         <li>{{ h[6] }} – <strong>{{ h[1] }}</strong> :
@@ -141,7 +141,7 @@
 
 {% if historique %}
 <div class="history">
-    <h2>🧾 Historique global de {{ result.nom }} {{ result.prenom }}</h2>
+    <h2>🧾 Historique global</h2>
     <ul>
         {% for r in historique %}
         <li>{{ r[6] }} – <strong>{{ r[1] }}</strong> : {{ r[2] }} ({{ r[3] }} m/s)
